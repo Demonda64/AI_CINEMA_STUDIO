@@ -65,7 +65,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 
 ---
 
-## Phase 3 : Prompts et génération IA ✅ EN COURS
+## Phase 3 : Prompts et génération IA ✅ VALIDÉE
 
 **Agents impliqués** : PromptAgent, GenerationAgent, ArchiveAgent
 
@@ -74,27 +74,29 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [x] Prompts négatifs définis (`08_GENERATIONS/negative_prompts.md`)
 - [x] Versions de génération documentées (`08_GENERATIONS/generation_versions.md`)
 - [x] Notes de qualité préparées (`08_GENERATIONS/quality_notes.md`)
-- [ ] Meilleure version sélectionnée par scène
-- [x] Inventaire des assets préparé (`08_GENERATIONS/asset_inventory.md`)
+- [x] Meilleure version sélectionnée par plan prioritaire
+- [x] Inventaire des assets produit (`08_GENERATIONS/asset_inventory.md`)
+- [x] Rapport de sélection du lot 01 (`08_GENERATIONS/selection_report.md`)
 
-**Statut** : En cours. Lot 01 prêt, générations à produire et évaluer.
+**Statut** : Validée pour animatic. Plans complémentaires possibles après test de montage.
 
 ---
 
-## Phase 4 : Montage, continuité, post-production ⏳ À FAIRE
+## Phase 4 : Montage, continuité, post-production ✅ EN COURS
 
 **Agents impliqués** : EditingAgent, ContinuityAgent, SoundAgent, ArchiveAgent
 
 **Livrables attendus** :
-- [ ] Script de montage et rythme (`10_EDITING/edit_notes.md`)
-- [ ] Notes de coupes et transitions
-- [ ] Stabilisation et correction d'image (`11_POST/post_production_notes.md`)
+- [x] Script de montage et rythme (`10_EDITING/edit_notes.md`)
+- [x] Plan d'animatic (`10_EDITING/animatic_plan.md`)
+- [x] Notes de coupes et transitions
+- [x] Stabilisation et correction d'image (`11_POST/post_production_notes.md`)
 - [ ] Mix audio finalisé
 - [ ] Rapport de continuité final
 - [ ] Export master complété (`12_EXPORTS/export_report.md`)
 - [ ] Archive finale complètement documentée
 
-**Statut** : À commencer après Phase 3.
+**Statut** : En cours. Animatic lot 01 prêt à produire.
 
 ---
 
@@ -116,7 +118,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 **Phase 0** : 80% complet (brief, concept, themes, project_overview, emotion_map rédigés)
 **Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
 **Phase 2** : 100% complet (identité visuelle, lumière, storyboard, shot list, brief sonore et références validés)
-**Phase 3** : 65% complet (prompts, lot de génération, suivi qualité et inventaire prêts)
-**Phase 4** : 0% (à commencer)
+**Phase 3** : 100% complet (lot 01 généré, évalué et sélectionné pour animatic)
+**Phase 4** : 35% complet (plan animatic, notes montage et notes post-production prêts)
 
-**Prochaine action** : Produire les images du lot 01, puis sélectionner la meilleure version par plan.
+**Prochaine action** : Produire l'animatic lot 01 à partir des images sélectionnées.

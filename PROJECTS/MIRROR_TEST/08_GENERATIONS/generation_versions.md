@@ -17,11 +17,12 @@ Exemples :
 
 | ID version | Plan | Type | Prompt source | Résultat | Problème | Décision | Notes |
 |------------|------|------|---------------|----------|----------|----------|-------|
-| MIRROR_S01_P02_IMAGE_v01 | S01-P02 | Image | `generation_prompts.md` | À générer | - | En attente | Vérifier lisibilité `3:17` |
-| MIRROR_S02_P03_IMAGE_v01 | S02-P03 | Image | `generation_prompts.md` | À générer | - | En attente | Vérifier lisibilité du message |
-| MIRROR_S04_P01_IMAGE_v01 | S04-P01 | Image | `generation_prompts.md` | À générer | - | En attente | Anomalie subtile uniquement |
-| MIRROR_S04_P04_IMAGE_v01 | S04-P04 | Image | `generation_prompts.md` | À générer | - | En attente | Reflet humain, non monstrueux |
-| MIRROR_S05_P02_IMAGE_v01 | S05-P02 | Image | `generation_prompts.md` | À générer | - | En attente | Fin ouverte |
+| MIRROR_S01_P02_IMAGE_v01 | S01-P02 | Image | `generation_prompts.md` | Généré | Aucun problème majeur | Retenir | `3:17` lisible, ambiance validée |
+| MIRROR_S02_P03_IMAGE_v01 | S02-P03 | Image | `generation_prompts.md` | Généré | Aucun problème majeur | Retenir | Message exact et lisible |
+| MIRROR_S04_P01_IMAGE_v01 | S04-P01 | Image | `generation_prompts.md` | Généré | Anomalie trop discrète | Retoucher | Bonne ambiance, mais produire une v02 avec décalage plus lisible |
+| MIRROR_S04_P01_IMAGE_v02 | S04-P01 | Image | `generation_prompts.md` + retouche ciblée | Généré | Aucun problème majeur | Retenir | Regard du reflet plus lisible, ambiance conservée |
+| MIRROR_S04_P04_IMAGE_v01 | S04-P04 | Image | `generation_prompts.md` | Généré | Aucun problème majeur | Retenir | Regard direct et sourire ambigu validés |
+| MIRROR_S05_P02_IMAGE_v01 | S05-P02 | Image | `generation_prompts.md` | Généré | Aucun problème majeur | Retenir | Présence subtile et fin ouverte validées |
 
 ## Plans prioritaires à générer
 
@@ -48,4 +49,3 @@ Chaque génération doit être évaluée sur 5 critères :
 - **Retenir** : score total 20/25 ou plus, aucun critère essentiel raté.
 - **Retoucher** : score total 15-19/25 ou problème corrigeable en post-production.
 - **Rejeter** : score sous 15/25, incohérence majeure, ou violation des prompts négatifs.
-

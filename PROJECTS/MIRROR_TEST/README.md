@@ -9,8 +9,8 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - **Phase 0** : ✅ Complétée (brief, concept, themes, overview)
 - **Phase 1** : ✅ Complétée (scènes, synopsis, emotion_map, fiches personnages, continuité)
 - **Phase 2** : ✅ Complétée (visuels, lumière, storyboard, shot list, son, références)
-- **Phase 3** : ✅ En cours (prompts IA, prompts négatifs, suivi versions)
-- **Phase 4** : ⏳ À faire (montage, post-prod)
+- **Phase 3** : ✅ Complétée (lot 01 généré, évalué, sélectionné)
+- **Phase 4** : ✅ En cours (animatic, montage, post-prod)
 
 ## Fichiers clés
 - `phase_checklist.md` : Suivi de la progression
@@ -32,6 +32,10 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `08_GENERATIONS/generation_batch_plan.md` : Lot prioritaire de génération
 - `08_GENERATIONS/quality_notes.md` : Notes qualité des générations
 - `08_GENERATIONS/asset_inventory.md` : Inventaire des assets
+- `08_GENERATIONS/selection_report.md` : Rapport de sélection Phase 3
+- `10_EDITING/animatic_plan.md` : Plan d'animatic
+- `10_EDITING/edit_notes.md` : Notes de montage
+- `11_POST/post_production_notes.md` : Notes de post-production
 
 ## Durée cible
 4-5 minutes
@@ -40,4 +44,4 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 Thriller psychologique / Horreur subtile
 
 ## Prochaine étape
-Produire les images du lot 01, puis sélectionner la meilleure version par plan.
+Produire l'animatic lot 01 à partir des images sélectionnées.
