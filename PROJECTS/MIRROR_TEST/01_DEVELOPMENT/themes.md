@@ -13,4 +13,4 @@ Le protagoniste essaie de contrôler (débrancher l'alarme) mais perd toute maî
 Le miroir classiquement représente le soi ; ici il représente l'autre, l'étranger, l'ennemi.
 
 ## Temps et routine
-L'alarme récurrente (3h17) suggère un cycle, une malédiction, une rupture de liberté.
+L'alarme récurrente (3h17) suggère un cycle, une malédiction, une rupture de liberté
