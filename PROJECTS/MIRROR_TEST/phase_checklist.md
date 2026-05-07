@@ -73,11 +73,11 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [x] Prompts de génération par scène (`08_GENERATIONS/generation_prompts.md`)
 - [x] Prompts négatifs définis (`08_GENERATIONS/negative_prompts.md`)
 - [x] Versions de génération documentées (`08_GENERATIONS/generation_versions.md`)
-- [ ] Notes de qualité pour chaque version
+- [x] Notes de qualité préparées (`08_GENERATIONS/quality_notes.md`)
 - [ ] Meilleure version sélectionnée par scène
-- [ ] Inventaire des assets produits
+- [x] Inventaire des assets préparé (`08_GENERATIONS/asset_inventory.md`)
 
-**Statut** : En cours. Prompts prêts, générations à produire et évaluer.
+**Statut** : En cours. Lot 01 prêt, générations à produire et évaluer.
 
 ---
 
@@ -116,7 +116,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 **Phase 0** : 80% complet (brief, concept, themes, project_overview, emotion_map rédigés)
 **Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
 **Phase 2** : 100% complet (identité visuelle, lumière, storyboard, shot list, brief sonore et références validés)
-**Phase 3** : 50% complet (prompts et suivi de versions prêts, générations à produire)
+**Phase 3** : 65% complet (prompts, lot de génération, suivi qualité et inventaire prêts)
 **Phase 4** : 0% (à commencer)
 
-**Prochaine action** : Générer les plans prioritaires et noter les versions dans `08_GENERATIONS/generation_versions.md`.
+**Prochaine action** : Produire les images du lot 01, puis sélectionner la meilleure version par plan.

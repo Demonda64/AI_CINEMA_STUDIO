@@ -29,6 +29,9 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `08_GENERATIONS/generation_prompts.md` : Prompts IA par plan
 - `08_GENERATIONS/negative_prompts.md` : Prompts négatifs et contraintes
 - `08_GENERATIONS/generation_versions.md` : Suivi des versions générées
+- `08_GENERATIONS/generation_batch_plan.md` : Lot prioritaire de génération
+- `08_GENERATIONS/quality_notes.md` : Notes qualité des générations
+- `08_GENERATIONS/asset_inventory.md` : Inventaire des assets
 
 ## Durée cible
 4-5 minutes
@@ -37,4 +40,4 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 Thriller psychologique / Horreur subtile
 
 ## Prochaine étape
-Générer les plans prioritaires et noter les versions dans `08_GENERATIONS/generation_versions.md`.
+Produire les images du lot 01, puis sélectionner la meilleure version par plan.
