@@ -49,19 +49,19 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 
 ---
 
-## Phase 2 : Identité visuelle et son ⏳ À FAIRE
+## Phase 2 : Identité visuelle et son ✅ EN COURS
 
 **Agents impliqués** : CameraAgent, DPAgent, LightingAgent, SoundAgent
 
 **Livrables attendus** :
-- [ ] Plan de caméra par scène (`06_STORYBOARD/storyboard_plan.md`)
-- [ ] Liste de plans (`07_SHOTS/shot_list.md`)
-- [ ] Palette couleur documentée
-- [ ] Fiches d'éclairage par scène
-- [ ] Brief sonore et motifs musicaux (`09_AUDIO/README.md`)
+- [x] Plan de caméra par scène (`06_STORYBOARD/storyboard_plan.md`)
+- [x] Liste de plans (`07_SHOTS/shot_list.md`)
+- [x] Palette couleur documentée (`05_ENVIRONMENTS/visual_identity.md`)
+- [x] Fiches d'éclairage par scène (`05_ENVIRONMENTS/lighting_notes.md`)
+- [x] Brief sonore et motifs musicaux (`09_AUDIO/README.md`)
 - [ ] Références visuelles et sonores validées
 
-**Statut** : À commencer après Phase 0/1 validation.
+**Statut** : En cours. Livrables créatifs de base rédigés, références à valider.
 
 ---
 
@@ -115,6 +115,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 
 **Phase 0** : 80% complet (brief, concept, themes, project_overview, emotion_map rédigés)
 **Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
-**Phases 2-4** : 0% (à commencer)
+**Phase 2** : 80% complet (identité visuelle, lumière, storyboard, shot list et brief sonore rédigés)
+**Phases 3-4** : 0% (à commencer)
 
-**Prochaine action** : Créer les livrables de Phase 2 : storyboard, shot list, palette visuelle et brief sonore.
+**Prochaine action** : Valider les références visuelles/sonores, puis préparer les prompts IA de Phase 3.
