@@ -1,0 +1,12 @@
+[SUBJECT],
+[ACTION],
+[ENVIRONMENT],
+feeling [EMOTION],
+[SHOT TYPE],
+[LENS],
+[CAMERA MOVEMENT],
+[LIGHTING],
+[ATMOSPHERE],
+[TEXTURE],
+cinematic realism,
+photorealistic
