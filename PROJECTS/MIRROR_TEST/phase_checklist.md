@@ -49,7 +49,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 
 ---
 
-## Phase 2 : Identité visuelle et son ✅ EN COURS
+## Phase 2 : Identité visuelle et son ✅ VALIDÉE
 
 **Agents impliqués** : CameraAgent, DPAgent, LightingAgent, SoundAgent
 
@@ -59,25 +59,25 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [x] Palette couleur documentée (`05_ENVIRONMENTS/visual_identity.md`)
 - [x] Fiches d'éclairage par scène (`05_ENVIRONMENTS/lighting_notes.md`)
 - [x] Brief sonore et motifs musicaux (`09_AUDIO/README.md`)
-- [ ] Références visuelles et sonores validées
+- [x] Références visuelles et sonores validées (`05_ENVIRONMENTS/reference_validation.md`)
 
-**Statut** : En cours. Livrables créatifs de base rédigés, références à valider.
+**Statut** : Validée. Prêt pour Phase 3 : prompts et génération IA.
 
 ---
 
-## Phase 3 : Prompts et génération IA ⏳ À FAIRE
+## Phase 3 : Prompts et génération IA ✅ EN COURS
 
 **Agents impliqués** : PromptAgent, GenerationAgent, ArchiveAgent
 
 **Livrables attendus** :
-- [ ] Prompts de génération par scène (`08_GENERATIONS/generation_prompts.md`)
-- [ ] Prompts négatifs définis et testés
-- [ ] Versions de génération documentées (`08_GENERATIONS/generation_versions.md`)
+- [x] Prompts de génération par scène (`08_GENERATIONS/generation_prompts.md`)
+- [x] Prompts négatifs définis (`08_GENERATIONS/negative_prompts.md`)
+- [x] Versions de génération documentées (`08_GENERATIONS/generation_versions.md`)
 - [ ] Notes de qualité pour chaque version
 - [ ] Meilleure version sélectionnée par scène
 - [ ] Inventaire des assets produits
 
-**Statut** : À commencer après Phase 2.
+**Statut** : En cours. Prompts prêts, générations à produire et évaluer.
 
 ---
 
@@ -115,7 +115,8 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 
 **Phase 0** : 80% complet (brief, concept, themes, project_overview, emotion_map rédigés)
 **Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
-**Phase 2** : 80% complet (identité visuelle, lumière, storyboard, shot list et brief sonore rédigés)
-**Phases 3-4** : 0% (à commencer)
+**Phase 2** : 100% complet (identité visuelle, lumière, storyboard, shot list, brief sonore et références validés)
+**Phase 3** : 50% complet (prompts et suivi de versions prêts, générations à produire)
+**Phase 4** : 0% (à commencer)
 
-**Prochaine action** : Valider les références visuelles/sonores, puis préparer les prompts IA de Phase 3.
+**Prochaine action** : Générer les plans prioritaires et noter les versions dans `08_GENERATIONS/generation_versions.md`.
