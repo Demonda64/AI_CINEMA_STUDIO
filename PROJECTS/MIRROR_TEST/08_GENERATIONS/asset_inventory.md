@@ -14,7 +14,7 @@ Lot 01 généré et sélectionné. Cinq images sont retenues en première sélec
 | `08_GENERATIONS/assets/images/selected/` | Images retenues | Prêt |
 | `08_GENERATIONS/assets/images/rejected/` | Images rejetées conservées | Prêt |
 | `08_GENERATIONS/assets/video/drafts/` | Vidéos brutes générées | Prêt |
-| `08_GENERATIONS/assets/video/selected/` | Vidéos retenues | Prêt |
+| `08_GENERATIONS/assets/video/selected/` | Vidéos retenues | Animatic lot 01 retenu |
 
 ## Assets attendus - Lot 01
 
@@ -36,3 +36,9 @@ Lot 01 généré et sélectionné. Cinq images sont retenues en première sélec
 | MIRROR_S04_P01_IMAGE_v02 | Image | `08_GENERATIONS/assets/images/selected/MIRROR_S04_P01_IMAGE_v02.png` | Première anomalie miroir | Reflet plus lisible |
 | MIRROR_S04_P04_IMAGE_v01 | Image | `08_GENERATIONS/assets/images/selected/MIRROR_S04_P04_IMAGE_v01.png` | Révélation miroir | Reflet humain inquiétant |
 | MIRROR_S05_P02_IMAGE_v01 | Image | `08_GENERATIONS/assets/images/selected/MIRROR_S05_P02_IMAGE_v01.png` | Fin ouverte | Présence subtile |
+
+## Vidéos retenues
+
+| Asset ID | Type | Fichier | Utilisation | Notes |
+|----------|------|---------|-------------|-------|
+| MIRROR_LOT01_ANIMATIC_v01 | Vidéo MP4 | `08_GENERATIONS/assets/video/selected/MIRROR_LOT01_ANIMATIC_v01.mp4` | Animatic lot 01 | Copie de `12_EXPORTS/MIRROR_TEST_animatic_lot01.mp4` |

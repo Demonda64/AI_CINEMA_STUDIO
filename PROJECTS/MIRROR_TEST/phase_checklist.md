@@ -89,14 +89,19 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 **Livrables attendus** :
 - [x] Script de montage et rythme (`10_EDITING/edit_notes.md`)
 - [x] Plan d'animatic (`10_EDITING/animatic_plan.md`)
+- [x] Animatic lot 01 produit (`10_EDITING/animatic_lot01.html`)
+- [x] Animatic lot 01 exporté en MP4 (`12_EXPORTS/MIRROR_TEST_animatic_lot01.mp4`)
 - [x] Notes de coupes et transitions
 - [x] Stabilisation et correction d'image (`11_POST/post_production_notes.md`)
 - [ ] Mix audio finalisé
+- [x] Plan de mix audio (`09_AUDIO/mix_plan_phase4.md`)
+- [x] Rapport de continuité animatic (`02_PREPRODUCTION/continuity_report_phase4_animatic.md`)
 - [ ] Rapport de continuité final
+- [x] Rapport d'export animatic (`12_EXPORTS/animatic_export_report.md`)
 - [ ] Export master complété (`12_EXPORTS/export_report.md`)
 - [ ] Archive finale complètement documentée
 
-**Statut** : En cours. Animatic lot 01 prêt à produire.
+**Statut** : En cours. Animatic lot 01 produit, continuité validée pour revue, mix final à produire.
 
 ---
 
@@ -119,6 +124,6 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 **Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
 **Phase 2** : 100% complet (identité visuelle, lumière, storyboard, shot list, brief sonore et références validés)
 **Phase 3** : 100% complet (lot 01 généré, évalué et sélectionné pour animatic)
-**Phase 4** : 35% complet (plan animatic, notes montage et notes post-production prêts)
+**Phase 4** : 75% complet (animatic produit, continuité revue, plan de mix prêt)
 
-**Prochaine action** : Produire l'animatic lot 01 à partir des images sélectionnées.
+**Prochaine action** : Produire ou intégrer les assets audio naturels pour remplacer le mix synthétique.

@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIRROR_TEST - Animatic Lot 01</title>
+  <style>
+    :root {
+      --bg: #05080b;
+      --panel: #111820;
+      --line: #26323d;
+      --text: #d7e0e6;
+      --muted: #8d9ba5;
+      --accent: #b72b2b;
+      --cold: #8bb4cc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      background: #05080b;
+    }
+
+    .stage {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      min-height: calc(100vh - 92px);
+      background: #020304;
+    }
+
+    .frame {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      opacity: 0;
+      transform: scale(1.015);
+      transition: opacity 650ms ease, transform 2400ms ease;
+      background: #020304;
+    }
+
+    .frame.active {
+      opacity: 1;
+      transform: scale(1);
+      z-index: 2;
+    }
+
+    .frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #020304;
+    }
+
+    .frame::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 50% 45%, transparent 0, rgba(0, 0, 0, 0.1) 48%, rgba(0, 0, 0, 0.48) 100%),
+        linear-gradient(180deg, rgba(3, 7, 10, 0.12), rgba(3, 7, 10, 0.34));
+      mix-blend-mode: multiply;
+    }
+
+    .frame-label {
+      position: absolute;
+      left: 20px;
+      bottom: 18px;
+      z-index: 3;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 8px 10px;
+      border: 1px solid rgba(141, 155, 165, 0.2);
+      background: rgba(5, 8, 11, 0.76);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .frame-label strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: auto auto 1fr auto;
+      gap: 14px;
+      align-items: center;
+      padding: 16px 18px;
+      border-top: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    button {
+      min-width: 86px;
+      height: 42px;
+      border: 1px solid #35424d;
+      background: #18222b;
+      color: var(--text);
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: var(--cold);
+    }
+
+    .time {
+      min-width: 116px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      font-size: 14px;
+    }
+
+    .timeline {
+      position: relative;
+      height: 10px;
+      border: 1px solid #33414d;
+      background: #05080b;
+    }
+
+    .progress {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--cold));
+    }
+
+    .caption {
+      color: var(--muted);
+      font-size: 14px;
+      text-align: right;
+    }
+
+    @media (max-width: 780px) {
+      .controls {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .timeline,
+      .caption {
+        grid-column: 1 / -1;
+      }
+
+      .caption {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="stage" aria-label="Animatic Lot 01">
+      <div class="frame active" data-start="0" data-duration="5" data-sound="alarm">
+        <img src="../08_GENERATIONS/assets/images/selected/MIRROR_S01_P02_IMAGE_v01.png" alt="Réveil digital affichant 3:17">
+        <div class="frame-label"><strong>S01-P02</strong><span>Alarme 3:17</span></div>
+      </div>
+      <div class="frame" data-start="5" data-duration="7" data-sound="vibration">
+        <img src="../08_GENERATIONS/assets/images/selected/MIRROR_S02_P03_IMAGE_v01.png" alt="Message Tu aurais dû le laisser branché">
+        <div class="frame-label"><strong>S02-P03</strong><span>Message</span></div>
+      </div>
+      <div class="frame" data-start="12" data-duration="10" data-sound="room">
+        <img src="../08_GENERATIONS/assets/images/selected/MIRROR_S04_P01_IMAGE_v02.png" alt="Première anomalie dans le miroir">
+        <div class="frame-label"><strong>S04-P01</strong><span>Première anomalie</span></div>
+      </div>
+      <div class="frame" data-start="22" data-duration="12" data-sound="mirror">
+        <img src="../08_GENERATIONS/assets/images/selected/MIRROR_S04_P04_IMAGE_v01.png" alt="Révélation du reflet anormal">
+        <div class="frame-label"><strong>S04-P04</strong><span>Révélation</span></div>
+      </div>
+      <div class="frame" data-start="34" data-duration="8" data-sound="ending">
+        <img src="../08_GENERATIONS/assets/images/selected/MIRROR_S05_P02_IMAGE_v01.png" alt="Dernier reflet ambigu">
+        <div class="frame-label"><strong>S05-P02</strong><span>Fin ouverte</span></div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Contrôles">
+      <button id="play">Lecture</button>
+      <button id="restart">Reprise</button>
+      <div class="timeline"><div class="progress" id="progress"></div></div>
+      <div class="time" id="time">00.0 / 42.0</div>
+      <div class="caption" id="caption">Animatic lot 01 - images sélectionnées Phase 3</div>
+    </section>
+  </main>
+
+  <script>
+    const frames = Array.from(document.querySelectorAll(".frame")).map((el) => ({
+      el,
+      start: Number(el.dataset.start),
+      duration: Number(el.dataset.duration),
+      sound: el.dataset.sound
+    }));
+
+    const totalDuration = 42;
+    const playButton = document.getElementById("play");
+    const restartButton = document.getElementById("restart");
+    const progress = document.getElementById("progress");
+    const time = document.getElementById("time");
+
+    let audioContext = null;
+    let playing = false;
+    let startedAt = 0;
+    let elapsedBeforePause = 0;
+    let rafId = null;
+    let lastSoundFrame = null;
+
+    function ensureAudio() {
+      if (!audioContext) {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioContext.state === "suspended") {
+        audioContext.resume();
+      }
+    }
+
+    function tone(freq, start, duration, gainValue) {
+      const osc = audioContext.createOscillator();
+      const gain = audioContext.createGain();
+      osc.type = "sine";
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(gainValue, start + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+      osc.connect(gain);
+      gain.connect(audioContext.destination);
+      osc.start(start);
+      osc.stop(start + duration + 0.03);
+    }
+
+    function noiseBurst(start, duration, gainValue) {
+      const bufferSize = Math.max(1, Math.floor(audioContext.sampleRate * duration));
+      const buffer = audioContext.createBuffer(1, bufferSize, audioContext.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i += 1) {
+        data[i] = (Math.sin(i * 31.17) * 0.5 + Math.sin(i * 7.13) * 0.2);
+      }
+      const source = audioContext.createBufferSource();
+      const gain = audioContext.createGain();
+      source.buffer = buffer;
+      gain.gain.setValueAtTime(gainValue, start);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+      source.connect(gain);
+      gain.connect(audioContext.destination);
+      source.start(start);
+    }
+
+    function playSound(kind) {
+      if (!audioContext) return;
+      const now = audioContext.currentTime;
+      if (kind === "alarm") {
+        tone(880, now, 0.12, 0.08);
+        tone(880, now + 0.32, 0.12, 0.08);
+        tone(880, now + 0.64, 0.12, 0.08);
+      } else if (kind === "vibration") {
+        noiseBurst(now, 0.18, 0.06);
+        noiseBurst(now + 0.28, 0.18, 0.045);
+      } else if (kind === "room") {
+        tone(64, now, 1.8, 0.018);
+      } else if (kind === "mirror") {
+        tone(48, now, 2.8, 0.026);
+      } else if (kind === "ending") {
+        tone(41, now, 3.5, 0.018);
+      }
+    }
+
+    function setActiveFrame(currentTime) {
+      const active = frames.find((frame) => currentTime >= frame.start && currentTime < frame.start + frame.duration) || frames[frames.length - 1];
+      frames.forEach((frame) => frame.el.classList.toggle("active", frame === active));
+      if (active !== lastSoundFrame) {
+        lastSoundFrame = active;
+        playSound(active.sound);
+      }
+    }
+
+    function render(currentTime) {
+      const clamped = Math.max(0, Math.min(totalDuration, currentTime));
+      setActiveFrame(clamped);
+      progress.style.width = `${(clamped / totalDuration) * 100}%`;
+      time.textContent = `${clamped.toFixed(1).padStart(4, "0")} / ${totalDuration.toFixed(1)}`;
+    }
+
+    function tick() {
+      const elapsed = elapsedBeforePause + (performance.now() - startedAt) / 1000;
+      render(elapsed);
+      if (elapsed >= totalDuration) {
+        playing = false;
+        playButton.textContent = "Lecture";
+        elapsedBeforePause = totalDuration;
+        return;
+      }
+      rafId = requestAnimationFrame(tick);
+    }
+
+    playButton.addEventListener("click", () => {
+      ensureAudio();
+      if (playing) {
+        elapsedBeforePause += (performance.now() - startedAt) / 1000;
+        playing = false;
+        playButton.textContent = "Lecture";
+        cancelAnimationFrame(rafId);
+        return;
+      }
+      if (elapsedBeforePause >= totalDuration) {
+        elapsedBeforePause = 0;
+      }
+      lastSoundFrame = null;
+      startedAt = performance.now();
+      playing = true;
+      playButton.textContent = "Pause";
+      tick();
+    });
+
+    restartButton.addEventListener("click", () => {
+      ensureAudio();
+      elapsedBeforePause = 0;
+      startedAt = performance.now();
+      lastSoundFrame = null;
+      playing = true;
+      playButton.textContent = "Pause";
+      cancelAnimationFrame(rafId);
+      tick();
+    });
+
+    render(0);
+  </script>
+</body>
+</html>

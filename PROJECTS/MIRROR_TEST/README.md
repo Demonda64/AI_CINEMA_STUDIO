@@ -26,6 +26,8 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `06_STORYBOARD/storyboard_plan.md` : Plan storyboard
 - `07_SHOTS/shot_list.md` : Liste de plans
 - `09_AUDIO/README.md` : Brief sonore
+- `09_AUDIO/mix_plan_phase4.md` : Plan de mix audio Phase 4
+- `02_PREPRODUCTION/continuity_report_phase4_animatic.md` : Continuité animatic Phase 4
 - `08_GENERATIONS/generation_prompts.md` : Prompts IA par plan
 - `08_GENERATIONS/negative_prompts.md` : Prompts négatifs et contraintes
 - `08_GENERATIONS/generation_versions.md` : Suivi des versions générées
@@ -34,8 +36,11 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `08_GENERATIONS/asset_inventory.md` : Inventaire des assets
 - `08_GENERATIONS/selection_report.md` : Rapport de sélection Phase 3
 - `10_EDITING/animatic_plan.md` : Plan d'animatic
+- `10_EDITING/animatic_lot01.html` : Animatic HTML lot 01
 - `10_EDITING/edit_notes.md` : Notes de montage
 - `11_POST/post_production_notes.md` : Notes de post-production
+- `12_EXPORTS/animatic_export_report.md` : Rapport d'export animatic
+- `12_EXPORTS/MIRROR_TEST_animatic_lot01.mp4` : Animatic MP4 lot 01
 
 ## Durée cible
 4-5 minutes
@@ -44,4 +49,4 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 Thriller psychologique / Horreur subtile
 
 ## Prochaine étape
-Produire l'animatic lot 01 à partir des images sélectionnées.
+Produire ou intégrer les assets audio naturels pour remplacer le mix synthétique.
