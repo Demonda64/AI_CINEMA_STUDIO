@@ -32,6 +32,13 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `08_GENERATIONS/negative_prompts.md` : Prompts négatifs et contraintes
 - `08_GENERATIONS/generation_versions.md` : Suivi des versions générées
 - `08_GENERATIONS/generation_batch_plan.md` : Lot prioritaire de génération
+- `08_GENERATIONS/vendor_prompts/vendor_generation_plan.md` : Plan ElevenLabs / HeyGen / Grok
+- `08_GENERATIONS/vendor_prompts/elevenlabs_audio_prompts.md` : Prompts audio ElevenLabs
+- `08_GENERATIONS/vendor_prompts/heygen_video_prompts.md` : Prompts vidéo HeyGen
+- `08_GENERATIONS/vendor_prompts/grok_iteration_prompts.md` : Prompts d'itération Grok
+- `08_GENERATIONS/vendor_prompts/vendor_versions.md` : Suivi des versions vendors
+- `08_GENERATIONS/vendor_prompts/vendor_review_checklist.md` : Checklist de revue vendors
+- `08_GENERATIONS/vendor_prompts/submission_packets/` : Prompts prêts à copier-coller par outil
 - `08_GENERATIONS/quality_notes.md` : Notes qualité des générations
 - `08_GENERATIONS/asset_inventory.md` : Inventaire des assets
 - `08_GENERATIONS/selection_report.md` : Rapport de sélection Phase 3
@@ -41,6 +48,8 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `11_POST/post_production_notes.md` : Notes de post-production
 - `12_EXPORTS/animatic_export_report.md` : Rapport d'export animatic
 - `12_EXPORTS/MIRROR_TEST_animatic_lot01.mp4` : Animatic MP4 lot 01
+- `12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v02.mp4` : Animatic MP4 avec mix audio v02
+- `12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v03.mp4` : Animatic MP4 recommandé pour revue
 
 ## Durée cible
 4-5 minutes
@@ -49,4 +58,4 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 Thriller psychologique / Horreur subtile
 
 ## Prochaine étape
-Produire ou intégrer les assets audio naturels pour remplacer le mix synthétique.
+Soumettre les packets HeyGen/ElevenLabs, puis importer les rendus dans `08_GENERATIONS/assets/vendor_imports/`.

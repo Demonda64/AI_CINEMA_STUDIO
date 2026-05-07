@@ -15,6 +15,9 @@ Lot 01 généré et sélectionné. Cinq images sont retenues en première sélec
 | `08_GENERATIONS/assets/images/rejected/` | Images rejetées conservées | Prêt |
 | `08_GENERATIONS/assets/video/drafts/` | Vidéos brutes générées | Prêt |
 | `08_GENERATIONS/assets/video/selected/` | Vidéos retenues | Animatic lot 01 retenu |
+| `08_GENERATIONS/assets/vendor_imports/heygen/` | Imports vidéo HeyGen | Prêt |
+| `08_GENERATIONS/assets/vendor_imports/elevenlabs/` | Imports audio ElevenLabs | Prêt |
+| `08_GENERATIONS/assets/vendor_imports/grok/` | Imports analyses/prompts Grok | Prêt |
 
 ## Assets attendus - Lot 01
 
@@ -42,3 +45,5 @@ Lot 01 généré et sélectionné. Cinq images sont retenues en première sélec
 | Asset ID | Type | Fichier | Utilisation | Notes |
 |----------|------|---------|-------------|-------|
 | MIRROR_LOT01_ANIMATIC_v01 | Vidéo MP4 | `08_GENERATIONS/assets/video/selected/MIRROR_LOT01_ANIMATIC_v01.mp4` | Animatic lot 01 | Copie de `12_EXPORTS/MIRROR_TEST_animatic_lot01.mp4` |
+| MIRROR_LOT01_ANIMATIC_AUDIO_v02 | Vidéo MP4 | `08_GENERATIONS/assets/video/selected/MIRROR_LOT01_ANIMATIC_AUDIO_v02.mp4` | Animatic lot 01 audio v02 | Copie de `12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v02.mp4` |
+| MIRROR_LOT01_ANIMATIC_AUDIO_v03 | Vidéo MP4 | `08_GENERATIONS/assets/video/selected/MIRROR_LOT01_ANIMATIC_AUDIO_v03.mp4` | Animatic lot 01 audio v03 | Version recommandée pour revue |

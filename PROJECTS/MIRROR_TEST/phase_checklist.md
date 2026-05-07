@@ -77,8 +77,12 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [x] Meilleure version sélectionnée par plan prioritaire
 - [x] Inventaire des assets produit (`08_GENERATIONS/asset_inventory.md`)
 - [x] Rapport de sélection du lot 01 (`08_GENERATIONS/selection_report.md`)
+- [x] Prompts vendors préparés (`08_GENERATIONS/vendor_prompts/`)
+- [x] Suivi vendors préparé (`08_GENERATIONS/vendor_prompts/vendor_versions.md`)
+- [x] Dossiers d'import vendors préparés (`08_GENERATIONS/assets/vendor_imports/`)
+- [x] Packets de soumission vendors préparés (`08_GENERATIONS/vendor_prompts/submission_packets/`)
 
-**Statut** : Validée pour animatic. Plans complémentaires possibles après test de montage.
+**Statut** : Validée pour animatic. Prompts vendors prêts pour ElevenLabs, HeyGen et Grok.
 
 ---
 
@@ -94,6 +98,8 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [x] Notes de coupes et transitions
 - [x] Stabilisation et correction d'image (`11_POST/post_production_notes.md`)
 - [ ] Mix audio finalisé
+- [x] Mix audio de travail v02 intégré (`12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v02.mp4`)
+- [x] Mix audio de revue v03 intégré (`12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v03.mp4`)
 - [x] Plan de mix audio (`09_AUDIO/mix_plan_phase4.md`)
 - [x] Rapport de continuité animatic (`02_PREPRODUCTION/continuity_report_phase4_animatic.md`)
 - [ ] Rapport de continuité final
@@ -101,7 +107,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [ ] Export master complété (`12_EXPORTS/export_report.md`)
 - [ ] Archive finale complètement documentée
 
-**Statut** : En cours. Animatic lot 01 produit, continuité validée pour revue, mix final à produire.
+**Statut** : En cours. Animatic lot 01 produit, continuité validée pour revue, mix v03 intégré.
 
 ---
 
@@ -124,6 +130,6 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 **Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
 **Phase 2** : 100% complet (identité visuelle, lumière, storyboard, shot list, brief sonore et références validés)
 **Phase 3** : 100% complet (lot 01 généré, évalué et sélectionné pour animatic)
-**Phase 4** : 75% complet (animatic produit, continuité revue, plan de mix prêt)
+**Phase 4** : 92% complet (animatic v03 audio produit, pipeline vendors prêt, packets de soumission prêts)
 
-**Prochaine action** : Produire ou intégrer les assets audio naturels pour remplacer le mix synthétique.
+**Prochaine action** : Soumettre les packets HeyGen/ElevenLabs, puis importer les rendus dans `08_GENERATIONS/assets/vendor_imports/`.

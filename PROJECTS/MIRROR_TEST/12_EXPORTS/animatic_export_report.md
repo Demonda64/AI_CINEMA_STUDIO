@@ -10,6 +10,14 @@ Un animatic MP4 a également été produit :
 
 `12_EXPORTS/MIRROR_TEST_animatic_lot01.mp4`
 
+Une v02 avec assets audio séparés a été produite :
+
+`12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v02.mp4`
+
+Une v03 avec respiration organique et niveaux affinés a été produite :
+
+`12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v03.mp4`
+
 Une copie de travail est conservée dans :
 
 `08_GENERATIONS/assets/video/selected/MIRROR_LOT01_ANIMATIC_v01.mp4`
@@ -27,6 +35,8 @@ Ces exports utilisent les images sélectionnées en Phase 3 et reproduisent le r
 - Audio : AAC
 - Audio HTML : sons synthétiques générés dans le navigateur
 - Audio MP4 : sons synthétiques rendus avec FFmpeg
+- Audio MP4 v02 : assets WAV séparés mixés avec FFmpeg
+- Audio MP4 v03 : respiration organique et niveaux affinés
 
 ## Note d'environnement
 
@@ -57,9 +67,25 @@ L'animatic HTML reste utile pour une validation interactive. Le MP4 sert de fich
 - Codec vidéo : H.264
 - Codec audio : AAC
 
+## Vérification technique v02
+
+- Durée : 42.000 secondes
+- Résolution : 1920x1080
+- Framerate : 24 fps
+- Codec vidéo : H.264
+- Codec audio : AAC
+
+## Vérification technique v03
+
+- Durée : 42.000 secondes
+- Résolution : 1920x1080
+- Framerate : 24 fps
+- Codec vidéo : H.264
+- Codec audio : AAC
+
 ## Prochaine étape
 
-Valider le rythme du MP4, puis décider :
+Valider le rythme et le mix de `MIRROR_TEST_animatic_lot01_audio_v03.mp4`, puis décider :
 
 1. soit générer les plans complémentaires avant le montage final ;
 2. soit passer au mix audio et au rapport de continuité final.

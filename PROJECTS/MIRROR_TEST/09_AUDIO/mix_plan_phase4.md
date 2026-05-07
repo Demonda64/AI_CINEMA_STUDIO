@@ -4,14 +4,34 @@ Ce document prépare le passage du son temporaire de l'animatic vers un mix plus
 
 ## État actuel
 
-L'animatic MP4 contient une piste audio synthétique générée avec FFmpeg :
+L'animatic MP4 v01 contenait une piste audio synthétique générée directement dans FFmpeg :
 
 - alarme courte ;
 - vibration bruitée ;
 - tonalités basses non musicales ;
 - silence entre les événements.
 
-Cette piste valide le rythme sonore mais ne constitue pas encore un mix final.
+Une v02 a maintenant été produite avec des assets audio séparés :
+
+- `09_AUDIO/assets/selected/alarm_beep_single.wav`
+- `09_AUDIO/assets/selected/phone_vibration_pulse.wav`
+- `09_AUDIO/assets/selected/room_tone_bedroom.wav`
+- `09_AUDIO/assets/selected/breathing_close_temp.wav`
+- `09_AUDIO/assets/selected/low_tone_mirror.wav`
+
+Export de revue :
+
+`12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v02.mp4`
+
+Une v03 a ensuite remplacé la respiration temporaire par une respiration plus organique et a adouci les niveaux :
+
+- `09_AUDIO/assets/selected/breathing_organic_v01.wav`
+
+Export de revue recommandé :
+
+`12_EXPORTS/MIRROR_TEST_animatic_lot01_audio_v03.mp4`
+
+Cette piste est la version recommandée pour revue de l'animatic lot 01.
 
 ## Objectif du mix final
 
@@ -60,5 +80,4 @@ Rendre le son plus physique et domestique tout en gardant la retenue :
 
 ## Décision
 
-Le mix final n'est pas encore validé. La prochaine passe doit remplacer les sons synthétiques par des sources plus naturelles ou des créations audio dédiées.
-
+Le mix v03 est intégré pour revue. Il remplace la respiration temporaire et garde les niveaux dans une zone plus retenue. La validation finale dépend maintenant d'une écoute humaine du MP4.
