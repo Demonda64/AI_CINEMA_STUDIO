@@ -7,7 +7,7 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 
 ## Status
 - **Phase 0** : ✅ Complétée (brief, concept, themes, overview)
-- **Phase 1** : ✅ Complétée (scènes, synopsis, emotion_map)
+- **Phase 1** : ✅ Complétée (scènes, synopsis, emotion_map, fiches personnages, continuité)
 - **Phase 2** : ⏳ À faire (visuels, son)
 - **Phase 3** : ⏳ À faire (prompts IA)
 - **Phase 4** : ⏳ À faire (montage, post-prod)
@@ -18,6 +18,8 @@ Un thriller psychologique minimaliste de 4-5 minutes où un homme se réveille �
 - `01_DEVELOPMENT/emotion_map.md` : Arc émotionnel
 - `02_PREPRODUCTION/scene_list.md` : Découpage en scènes
 - `02_PREPRODUCTION/synopsis.md` : Résumé narratif
+- `02_PREPRODUCTION/continuity_report_phase1.md` : Validation de cohérence Phase 1
+- `04_CHARACTERS/character_sheets.md` : Fiches personnages principales
 
 ## Durée cible
 4-5 minutes

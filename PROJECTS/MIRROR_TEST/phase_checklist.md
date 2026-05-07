@@ -26,7 +26,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 
 ---
 
-## Phase 1 : Histoire et émotion ✅ EN COURS
+## Phase 1 : Histoire et émotion ✅ VALIDÉE
 
 **Agents impliqués** : StoryAgent, EmotionAgent, DirectorAgent, ContinuityAgent
 
@@ -34,18 +34,18 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 - [x] Structure narrative complète (`02_PREPRODUCTION/scene_list.md`)
 - [x] Synopsis détaillé (`02_PREPRODUCTION/synopsis.md`)
 - [x] Carte émotionnelle par scène (`01_DEVELOPMENT/emotion_map.md`)
-- [ ] Fiches de personnages principaux
+- [x] Fiches de personnages principaux (`04_CHARACTERS/character_sheets.md`)
 - [x] Arcs émotionnels validés
-- [ ] Rapport initial de continuité
+- [x] Rapport initial de continuité (`02_PREPRODUCTION/continuity_report_phase1.md`)
 
 **Points de validation** :
 - [x] Chaque scène a un objectif clair.
 - [x] L'arc émotionnel progresse logiquement.
 - [x] Les personnages (minimal) ont des motivations définies.
 - [x] Les conflits centraux sont identifiés.
-- [ ] Pas d'incohérence majeure détectée (à valider).
+- [x] Pas d'incohérence majeure détectée.
 
-**Statut** : Prêt pour Phase 2 après fiches personnages et rapport continuité.
+**Statut** : Validée. Prêt pour Phase 2 : identité visuelle et son.
 
 ---
 
@@ -114,7 +114,7 @@ Utilisez ce checklist en parallèle avec `HOME/agents_workflow.md`.
 ## Résumé du statut
 
 **Phase 0** : 80% complet (brief, concept, themes, project_overview, emotion_map rédigés)
-**Phase 1** : 70% complet (scene_list et synopsis rédigés, fiches personnages manquantes)
+**Phase 1** : 100% complet (scene_list, synopsis, emotion_map, fiches personnages et rapport continuité validés)
 **Phases 2-4** : 0% (à commencer)
 
-**Prochaine action** : Compléter les fiches personnages, générer prompts Phase 2.
+**Prochaine action** : Créer les livrables de Phase 2 : storyboard, shot list, palette visuelle et brief sonore.
